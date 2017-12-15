@@ -9,7 +9,7 @@ namespace ICSharpCode.SharpZipLib.Encryption
 	internal class ZipAESTransform : ICryptoTransform
 	{
 
-#if NET45
+#if NET35
 		class IncrementalHash : HMACSHA1
 		{
 			bool _finalised;
